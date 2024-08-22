@@ -20,7 +20,7 @@ body,
 }
 
 .text-theme-primary {
-  color: #213459;
+  color: #213459 !important;
 }
 
 .bg-light {
@@ -28,7 +28,7 @@ body,
 }
 
 .fs-30 {
-  font-size: 30px;
+  font-size: 30px !important;
 }
 
 .fs-18 {
@@ -43,4 +43,12 @@ ul {
 
 li {
   margin: 0 10px;
+}
+
+.input-form .v-field__input,
+.input-form .v-label {
+  font-size: 20px !important;
+}
+.input-form .v-label {
+  font-weight: 600;
 }

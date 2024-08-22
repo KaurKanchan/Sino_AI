@@ -3,7 +3,7 @@
   <div class="bg-theme-primary">
     <v-container class="py-16">
       <v-row no-gutters class="justify-center text-center align-center">
-        <v-col md="6">
+        <v-col md="8">
           <h1 class="fs-30 mb-12 font-pt-serif">
             Subscribe to SinoAI Insights
           </h1>
@@ -28,6 +28,7 @@
             <v-col md="6" class="pe-6"
               ><v-text-field
                 hide-details="auto"
+                class="input-form"
                 variant="solo"
                 bg-color="white"
                 placeholder="First Name"
@@ -35,6 +36,7 @@
             ></v-col>
             <v-col md="6" class="ps-6"
               ><v-text-field
+                class="input-form"
                 hide-details="auto"
                 variant="solo"
                 bg-color="white"
@@ -43,6 +45,7 @@
             ></v-col>
             <v-col md="12"
               ><v-text-field
+                class="input-form"
                 hide-details="auto"
                 variant="solo"
                 bg-color="white"
@@ -51,6 +54,7 @@
             ></v-col>
             <v-col md="12"
               ><v-text-field
+                class="input-form"
                 hide-details="auto"
                 variant="solo"
                 bg-color="white"
@@ -60,13 +64,13 @@
             <v-col md="12">
               <v-checkbox
                 color="white"
+                class="input-form"
                 label="I agree to receive emails from SinoAI Advisory."
               ></v-checkbox>
             </v-col>
             <v-col md="12">
               <v-btn
                 rounded="0"
-                color="white"
                 size="x-large"
                 class="px-16 bg-light text-black font-pt-serif font-weight-bold text-h6"
               >
