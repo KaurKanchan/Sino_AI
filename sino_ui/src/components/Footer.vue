@@ -2,7 +2,12 @@
   <v-footer class="pa-16 bg-theme-primary">
     <v-row class="d-flex align-center px-16">
       <v-col cols="12" md="2">
-        <v-img src="./../assets/sinoAI.png" :width="140" :height="192"></v-img
+        <router-link to="/">
+          <v-img
+            src="./../assets/sinoAI.png"
+            :width="140"
+            :height="192"
+          ></v-img> </router-link
       ></v-col>
       <v-col cols="12" md="4">
         <span>

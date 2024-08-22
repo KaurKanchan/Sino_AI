@@ -7,27 +7,39 @@
     <v-container class="px-16">
       <v-row no-gutters class="align-center">
         <v-col cols="12" md="4">
-          <v-img
-            src="./../assets/sinoAI.png"
-            :width="140"
-            :height="192"
-          ></v-img>
+          <router-link to="/">
+            <v-img
+              src="./../assets/sinoAI.png"
+              :width="140"
+              :height="192"
+            ></v-img>
+          </router-link>
         </v-col>
         <v-col cols="12" md="8">
           <div
             class="text-end text-h5 text-uppercase font-weight-medium font-quicksand"
           >
-            <a href="/" class="text-white text-decoration-none pa-3">Home</a>
-            <a href="#" class="text-white text-decoration-none pa-3">About</a>
-            <a href="/database" class="text-white text-decoration-none pa-3"
-              >Database</a
+            <router-link to="/" class="text-white text-decoration-none pa-3"
+              >Home</router-link
             >
-            <a href="/insights" class="text-white text-decoration-none pa-3"
-              >Insights
-            </a>
-            <a href="/subscribe" class="text-white text-decoration-none pa-3"
-              >Subscribe
-            </a>
+            <router-link to="#" class="text-white text-decoration-none pa-3"
+              >About</router-link
+            >
+            <router-link
+              to="/database"
+              class="text-white text-decoration-none pa-3"
+              >Database</router-link
+            >
+            <router-link
+              to="/insights"
+              class="text-white text-decoration-none pa-3"
+              >Insights</router-link
+            >
+            <router-link
+              to="/subscribe"
+              class="text-white text-decoration-none pa-3"
+              >Subscribe</router-link
+            >
           </div>
         </v-col>
       </v-row>

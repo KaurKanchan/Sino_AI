@@ -52,3 +52,14 @@ li {
 .input-form .v-label {
   font-weight: 600;
 }
+
+.logo-btn:hover > .v-btn__overlay {
+  opacity: 0 !important;
+}
+
+.text-center-webkit {
+  text-align: -webkit-center;
+}
+.filter-label .v-label {
+  font-size: 30px;
+}

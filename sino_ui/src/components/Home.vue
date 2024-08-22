@@ -3,7 +3,7 @@
   <div class="bg-theme-primary">
     <v-container class="py-16">
       <v-row no-gutters class="justify-center text-center align-center">
-        <v-col md="6">
+        <v-col md="7">
           <h1 class="fs-30 mb-6 font-pt-serif">
             China AI Policy Insights for Global Leaders
           </h1>

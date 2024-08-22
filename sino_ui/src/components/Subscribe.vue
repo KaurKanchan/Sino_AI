@@ -11,8 +11,10 @@
             Stay updated with the latest analysis and trends in China’s AI
             policy landscape.
           </p>
-          <ul class="font-weight-regular fs-18">
-            <li v-for="(item, index) in list" :key="index">{{ item }}</li>
+          <ul class="font-weight-regular fs-18 mt-3">
+            <li class="mb-3" v-for="(item, index) in list" :key="index">
+              {{ item }}
+            </li>
           </ul>
         </v-col>
       </v-row>
