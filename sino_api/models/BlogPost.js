@@ -13,6 +13,11 @@ const BlogPostSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  category: {
+    type: String,
+    required: true,
+    enum: ["Government", "Market", "Private"],
+  },
 });
 
 module.exports = mongoose.model("BlogPost", BlogPostSchema);
