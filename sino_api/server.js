@@ -15,9 +15,9 @@ app.get("/", (req, res) => {
   res.send("Welcome to the MEVN Stack API!");
 });
 
-// api end points route
-const PostRouter = require("./routes/PostRoute");
-app.use("/posts", PostRouter);
+// Blog posts route
+const BlogPostRouter = require("./routes/BlogPostRoute");
+app.use("/blogPosts", BlogPostRouter);
 
 // MongoDB connection
 mongoose
