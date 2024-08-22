@@ -15,6 +15,7 @@ app.get("/", (req, res) => {
   res.send("Welcome to the MEVN Stack API!");
 });
 
+// api end points route
 const PostRouter = require("./routes/PostRoute");
 app.use("/posts", PostRouter);
 

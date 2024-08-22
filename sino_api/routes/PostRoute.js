@@ -20,8 +20,8 @@ router.get("/", async function (req, res) {
 /* ADD a new post */
 router.post("/add", async function (req, res) {
   try {
-    const newPost = await postModel.create(req.body); // Assumes req.body contains the user data
-    res.status(201).json(newPost); // Respond with the newly created user object
+    const newPost = await postModel.create(req.body);
+    res.status(201).json(newPost);
   } catch (err) {
     res.status(500).json({
       message: "Failed to add a new post",
