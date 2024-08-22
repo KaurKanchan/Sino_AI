@@ -11,6 +11,7 @@ import Home from "@/components/Home.vue";
 import Database from "@/components/Database.vue";
 import Subscribe from "@/components/Subscribe.vue";
 import Analysis from "@/components/Analysis.vue";
+import About from "@/components/About.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -19,6 +20,7 @@ const router = createRouter({
     { path: "/database", component: Database },
     { path: "/subscribe", component: Subscribe },
     { path: "/insights", component: Analysis },
+    { path: "/about", component: About },
   ],
 });
 

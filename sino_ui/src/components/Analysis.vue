@@ -48,7 +48,7 @@
         ></v-col>
       </v-row>
     </v-container>
-    <v-container class="ps-16">
+    <v-container class="ps-16 pb-10">
       <v-row class="justify-lg-space-between align-center">
         <v-col md="9" xl="7">
           <div class="text-theme-primary">

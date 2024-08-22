@@ -22,7 +22,9 @@
             <router-link to="/" class="text-white text-decoration-none pa-3"
               >Home</router-link
             >
-            <router-link to="#" class="text-white text-decoration-none pa-3"
+            <router-link
+              to="/about"
+              class="text-white text-decoration-none pa-3"
               >About</router-link
             >
             <router-link

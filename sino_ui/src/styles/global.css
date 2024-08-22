@@ -35,6 +35,14 @@ body,
   font-size: 18px;
 }
 
+.fs-40 {
+  font-size: 40px !important;
+}
+
+.lh-36 {
+  line-height: 36px !important;
+}
+
 ul {
   list-style-position: inside;
   padding: 0;
@@ -53,7 +61,8 @@ li {
   font-size: 20px !important;
 }
 
-.logo-btn:hover > .v-btn__overlay {
+.logo-btn:hover > .v-btn__overlay,
+.about-btn > .v-btn__overlay {
   opacity: 0 !important;
 }
 
@@ -65,4 +74,7 @@ li {
 .filter-label .v-field__append-inner {
   font-size: 30px;
   color: #213459 !important;
+}
+.px-128 {
+  padding-inline: 128px;
 }
