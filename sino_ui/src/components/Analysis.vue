@@ -1,25 +1,51 @@
 <template>
   <div class="px-16 bg-white">
     <v-container class="px-16">
-      <v-row class="text-center">
+      <v-row class="text-center-webkit font-pt-serif fs-30 align-baseline">
         <v-col
           ><v-select
+            theme="light"
+            item-color="#0A2458"
+            width="200px"
+            flat
+            class="filter-label"
             label="Sectors"
-            :items="[
-              'California',
-              'Colorado',
-              'Florida',
-              'Georgia',
-              'Texas',
-              'Wyoming',
-            ]"
+            :items="['Sector 1', 'Sector 2', 'Sector 3']"
             variant="solo"
           ></v-select
         ></v-col>
-        <hr class="d-inline h-auto" />
-        <v-col>Topics</v-col>
-        <hr class="d-inline h-auto" />
-        <v-col>Type</v-col>
+        <hr
+          class="d-inline border-solid text-theme-primary"
+          style="height: 50px"
+        />
+        <v-col
+          ><v-select
+            theme="light"
+            item-color="#0A2458"
+            width="200px"
+            flat
+            class="filter-label"
+            label="Topics"
+            :items="['Topic 1', 'Topic 2', 'Topic 3']"
+            variant="solo"
+          ></v-select
+        ></v-col>
+        <hr
+          class="d-inline border-solid text-theme-primary"
+          style="height: 50px"
+        />
+        <v-col
+          ><v-select
+            theme="light"
+            item-color="#0A2458"
+            width="200px"
+            flat
+            class="filter-label"
+            label="Type"
+            :items="['Type 1', 'Type 2', 'Type 3']"
+            variant="solo"
+          ></v-select
+        ></v-col>
       </v-row>
     </v-container>
   </div>
@@ -100,6 +126,9 @@ export default {
   },
   data() {
     return {
+      sectors: ["Sector 1", "Sector 2", "Sector 3"],
+      topics: ["Topic 1", "Topic 2", "Topic 3"],
+      types: ["Type 1", "Type 2", "Type 3"],
       analysisPosts: [
         {
           subject: "Money",
