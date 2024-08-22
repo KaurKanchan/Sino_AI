@@ -15,36 +15,35 @@
             ></v-img>
           </router-link>
         </v-col>
-        <v-col cols="12" md="8">
-          <div
-            class="text-end text-h5 text-uppercase font-weight-medium font-quicksand"
+        <v-col cols="12" md="8" class="text-end">
+          <router-link
+            v-for="(link, index) in menu"
+            :key="index"
+            :to="link.url"
+            class="mx-3 text-h5 font-weight-medium text-decoration-none text-white text-uppercase font-quicksand"
           >
-            <router-link to="/" class="text-white text-decoration-none pa-3"
-              >Home</router-link
-            >
-            <router-link
-              to="/about"
-              class="text-white text-decoration-none pa-3"
-              >About</router-link
-            >
-            <router-link
-              to="/database"
-              class="text-white text-decoration-none pa-3"
-              >Database</router-link
-            >
-            <router-link
-              to="/insights"
-              class="text-white text-decoration-none pa-3"
-              >Insights</router-link
-            >
-            <router-link
-              to="/subscribe"
-              class="text-white text-decoration-none pa-3"
-              >Subscribe</router-link
-            >
-          </div>
+            {{ link.label }}
+          </router-link>
         </v-col>
       </v-row>
     </v-container>
   </v-app-bar>
 </template>
+
+<script>
+export default {
+  name: "Navbar",
+
+  data() {
+    return {
+      menu: [
+        { label: "Home", url: "/" },
+        { label: "About", url: "/about" },
+        { label: "Database", url: "/database" },
+        { label: "Insights", url: "/insights" },
+        { label: "Subscribe", url: "/subscribe" },
+      ],
+    };
+  },
+};
+</script>

@@ -18,14 +18,14 @@
       </v-col>
       <v-col cols="12" md="6">
         <v-row no-gutters class="justify-lg-space-around">
-          <span
-            v-for="link in links"
-            :key="link"
-            class="mx-2 text-h5 font-weight-medium text-uppercase font-quicksand"
-            variant="text"
+          <router-link
+            v-for="(link, index) in menu"
+            :key="index"
+            :to="link.url"
+            class="mx-2 text-h5 font-weight-medium text-decoration-none text-white text-uppercase font-quicksand"
           >
-            {{ link }}
-          </span>
+            {{ link.label }}
+          </router-link>
         </v-row></v-col
       >
 
@@ -45,7 +45,11 @@ export default {
 
   data() {
     return {
-      links: ["About", "Subscribe", "Contact Us"],
+      menu: [
+        { label: "About", url: "/about" },
+        { label: "Subscribe", url: "/subscribe" },
+        { label: "Contact Us", url: "/contact" },
+      ],
     };
   },
 };
