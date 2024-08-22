@@ -1,0 +1,46 @@
+body,
+.font-open-sans {
+  font-family: "Open Sans", serif !important;
+}
+
+.font-quicksand {
+  font-family: "Quicksand", sans-serif !important;
+}
+
+.font-pt-serif {
+  font-family: "PT Serif", serif !important;
+}
+
+.bg-theme-primary {
+  background-color: #0a2458 !important;
+}
+
+.bg-theme-primary-light {
+  background-color: #213459;
+}
+
+.text-theme-primary {
+  color: #213459;
+}
+
+.bg-light {
+  background-color: #f5f4ee !important;
+}
+
+.fs-30 {
+  font-size: 30px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+ul {
+  list-style-position: inside;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  margin: 0 10px;
+}
