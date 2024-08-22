@@ -60,6 +60,9 @@ li {
 .text-center-webkit {
   text-align: -webkit-center;
 }
-.filter-label .v-label {
+.filter-label .v-label,
+.filter-label .v-field__input,
+.filter-label .v-field__append-inner {
   font-size: 30px;
+  color: #213459 !important;
 }
