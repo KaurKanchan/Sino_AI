@@ -45,12 +45,12 @@ li {
   margin: 0 10px;
 }
 
-.input-form .v-field__input,
-.input-form .v-label {
+.input-form .v-field__input {
   font-size: 20px !important;
 }
 .input-form .v-label {
   font-weight: 600;
+  font-size: 20px !important;
 }
 
 .logo-btn:hover > .v-btn__overlay {

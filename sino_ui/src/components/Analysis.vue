@@ -48,6 +48,80 @@
         ></v-col>
       </v-row>
     </v-container>
+    <v-container class="ps-16">
+      <v-row class="justify-lg-space-between align-center">
+        <v-col md="9" xl="7">
+          <div class="text-theme-primary">
+            <h3 class="text-h6 font-open-sans font-weight-bold mb-2">
+              Title 1 of Subject 1: e.g., The Future of AI: Trends and
+              Innovations
+            </h3>
+            <p class="text-h6 font-weight-light font-open-sans mb-2">
+              Month, Date, Year (e.g., July, 22, 2024)
+            </p>
+            <p class="font-pt-serif fs-18">
+              [Summary] AI is rapidly evolving, integrating with IoT, advancing
+              NLP, revolutionizing healthcare, and addressing ethical
+              considerations for future global challenges.
+            </p>
+          </div>
+          <hr class="border-solid my-6" />
+          <div class="text-theme-primary">
+            <h3 class="text-h6 font-open-sans font-weight-bold mb-2">
+              Title 1 of Subject 1: e.g., The Future of AI: Trends and
+              Innovations
+            </h3>
+            <p class="text-h6 font-weight-light font-open-sans mb-2">
+              Month, Date, Year (e.g., July, 22, 2024)
+            </p>
+            <p class="font-pt-serif fs-18">
+              [Summary] AI is rapidly evolving, integrating with IoT, advancing
+              NLP, revolutionizing healthcare, and addressing ethical
+              considerations for future global challenges.
+            </p>
+          </div>
+          <hr class="border-solid my-6" />
+          <div class="text-theme-primary">
+            <h3 class="text-h6 font-open-sans font-weight-bold mb-2">
+              Title 1 of Subject 1: e.g., The Future of AI: Trends and
+              Innovations
+            </h3>
+            <p class="text-h6 font-weight-light font-open-sans mb-2">
+              Month, Date, Year (e.g., July, 22, 2024)
+            </p>
+            <p class="font-pt-serif fs-18">
+              [Summary] AI is rapidly evolving, integrating with IoT, advancing
+              NLP, revolutionizing healthcare, and addressing ethical
+              considerations for future global challenges.
+            </p>
+          </div>
+          <hr class="border-solid my-6" />
+        </v-col>
+        <v-col md="3" class="mr-n16"
+          ><div>
+            <v-card tile class="mx-auto" color="#f5f4ee" flat max-width="344">
+              <hr
+                class="mx-auto border-solid text-theme-primary"
+                style="border-width: 2.5px"
+              />
+              <v-card-text class="text-end text-theme-primary pa-7 pb-0">
+                <p class="text-h6 font-pt-serif font-weight-bold">Subscribe</p>
+
+                <p class="font-pt-serif">
+                  Weekly Updates on China AI Policy Insights
+                </p>
+              </v-card-text>
+
+              <v-card-actions class="px-7"
+                ><v-text-field
+                  placeholder="enter your email here"
+                  variant="underlined"
+                ></v-text-field>
+              </v-card-actions>
+            </v-card></div
+        ></v-col>
+      </v-row>
+    </v-container>
   </div>
   <!-- latest analysis section -->
   <div class="bg-theme-primary-light px-16">
