@@ -56,7 +56,7 @@ body,
   text-align: center;
 }
 
-li {
+.subscribe li {
   margin: 0 10px;
 }
 
@@ -78,7 +78,7 @@ li {
 }
 
 .text-center-webkit {
-  text-align: -webkit-center;
+  text-align: -webkit-center !important;
 }
 .filter-label .v-label,
 .filter-label .v-field__input,

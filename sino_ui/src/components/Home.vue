@@ -24,11 +24,11 @@
   </div>
   <!-- /hero section -->
   <!-- database section -->
-  <div class="text-center text-black bg-light px-15">
+  <div class="text-center text-black bg-light px-md-15">
     <v-container class="py-16">
       <h1 class="text-theme-primary mb-16 font-pt-serif">China AI Database</h1>
       <v-row>
-        <v-col md="4" cols="12" class="px-md-16 mb-6">
+        <v-col md="4" cols="12" class="ps-md-16 mb-6">
           <BlogPost
             category="Government"
             img="https://etimg.etb2bimg.com/thumb/msid-106291853,imgsize-62380,width-1200,height=765,overlay-etgovernment/blog/10-govtech-trends-for-2024-major-futuristic-tech-trends-to-watch-in-government-sector-in-2024.jpg"
@@ -43,7 +43,7 @@
             <hr class="my-3" />
           </v-list-item>
         </v-col>
-        <v-col md="4" cols="12" class="px-md-16 mb-6">
+        <v-col md="4" cols="12" class="ps-md-16 mb-6">
           <BlogPost
             category="Market"
             img="https://img.freepik.com/free-vector/market-growth-concept-business-progress-business-expansion-idea-company-promotion-new-marketplace-finance-increase-business-success-flat-vector-illustration_613284-1292.jpg"
@@ -58,7 +58,7 @@
             <hr class="my-3" />
           </v-list-item>
         </v-col>
-        <v-col md="4" cols="12" class="px-md-16 mb-6">
+        <v-col md="4" cols="12" class="ps-md-16 mb-6">
           <BlogPost
             category="Private"
             img="https://t4.ftcdn.net/jpg/00/94/42/23/360_F_94422350_NLHh8XUVbSQn2GhMOxcgPinKNJKeB4JO.jpg"
@@ -78,12 +78,15 @@
   </div>
   <!-- /database section -->
   <!-- latest analysis section -->
-  <div class="bg-theme-primary-light px-16">
-    <v-container class="pa-16">
-      <h1 class="mb-16 text-center font-pt-serif">Latest Analysis</h1>
-      <v-row class="mb-16">
+  <div class="bg-theme-primary-light px-md-16">
+    <v-container class="pa-md-16">
+      <h1 class="mb-md-16 mb-4 text-center font-pt-serif">Latest Analysis</h1>
+      <v-row class="mb-md-16">
         <v-col md="6" cols="12">
-          <v-img src="../assets/governmental_support.jpg" class="mb-10"></v-img>
+          <v-img
+            src="../assets/governmental_support.jpg"
+            class="mb-md-10 mb-5"
+          ></v-img>
           <h3 class="mb-4">Governmental Support</h3>
           <p class="font-pt-serif">
             Government support refers to the actions and policies implemented by

@@ -1,7 +1,7 @@
 <template>
-  <v-footer class="pa-16 bg-theme-primary">
-    <v-row class="d-flex align-center px-16">
-      <v-col cols="12" md="2">
+  <v-footer class="pa-md-16 py-16 bg-theme-primary">
+    <v-row class="d-flex align-center px-md-16">
+      <v-col cols="12" md="2" style="text-align: -webkit-center">
         <router-link to="/">
           <v-img
             src="./../assets/sinoAI.png"
@@ -9,7 +9,7 @@
             :height="192"
           ></v-img> </router-link
       ></v-col>
-      <v-col cols="12" md="4">
+      <v-col cols="12" md="4" class="text-center text-md-start">
         <span>
           SinoAI Advisory<br />51 East 14th Street<br />Chicago, IL 60605<br
         /></span>
@@ -17,7 +17,10 @@
         inquiry@sinoaiadvisory.com
       </v-col>
       <v-col cols="12" md="6">
-        <v-row no-gutters class="justify-lg-space-around">
+        <v-row
+          no-gutters
+          class="justify-lg-space-around text-center flex-column ga-3 flex-lg-row ga-lg-0"
+        >
           <router-link
             v-for="(link, index) in menu"
             :key="index"

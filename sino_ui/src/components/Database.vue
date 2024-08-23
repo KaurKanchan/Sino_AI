@@ -28,7 +28,7 @@
     <v-container class="py-16">
       <h1 class="text-theme-primary mb-16 font-pt-serif">Latest Updates</h1>
       <v-row>
-        <v-col md="4" cols="12" class="px-md-16 mb-6">
+        <v-col md="4" cols="12" class="ps-md-16 mb-6">
           <BlogPost
             category="Government"
             img="https://etimg.etb2bimg.com/thumb/msid-106291853,imgsize-62380,width-1200,height=765,overlay-etgovernment/blog/10-govtech-trends-for-2024-major-futuristic-tech-trends-to-watch-in-government-sector-in-2024.jpg"
@@ -43,7 +43,7 @@
             <hr class="my-3" />
           </v-list-item>
         </v-col>
-        <v-col md="4" cols="12" class="px-md-16 mb-6">
+        <v-col md="4" cols="12" class="ps-md-16 mb-6">
           <BlogPost
             category="Market"
             img="https://img.freepik.com/free-vector/market-growth-concept-business-progress-business-expansion-idea-company-promotion-new-marketplace-finance-increase-business-success-flat-vector-illustration_613284-1292.jpg"
@@ -58,7 +58,7 @@
             <hr class="my-3" />
           </v-list-item>
         </v-col>
-        <v-col md="4" cols="12" class="px-md-16 mb-6">
+        <v-col md="4" cols="12" class="ps-md-16 mb-6">
           <BlogPost
             category="Private"
             img="https://t4.ftcdn.net/jpg/00/94/42/23/360_F_94422350_NLHh8XUVbSQn2GhMOxcgPinKNJKeB4JO.jpg"
