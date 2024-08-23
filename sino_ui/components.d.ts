@@ -11,6 +11,7 @@ declare module 'vue' {
     Analysis: typeof import('./src/components/Analysis.vue')['default']
     AnalysisPost: typeof import('./src/components/AnalysisPost.vue')['default']
     BlogPost: typeof import('./src/components/BlogPost.vue')['default']
+    Contact: typeof import('./src/components/Contact.vue')['default']
     Database: typeof import('./src/components/Database.vue')['default']
     Footer: typeof import('./src/components/Footer.vue')['default']
     Home: typeof import('./src/components/Home.vue')['default']
