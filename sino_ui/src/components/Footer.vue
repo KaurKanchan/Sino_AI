@@ -32,8 +32,14 @@
       <v-col cols="12" class="mt-6 text-caption font-open-sans">
         @{{ new Date().getFullYear() }} —
         <span
-          >SinoAI Advisory. All rights reserved. Privacy Policy and Terms of
-          Use.</span
+          >SinoAI Advisory. All rights reserved.
+          <router-link to="/privacypolicy" class="text-white"
+            >Privacy Policy</router-link
+          >
+          and
+          <router-link to="/termsofuse" class="text-white"
+            >Terms of Use</router-link
+          >.</span
         >
       </v-col>
     </v-row>

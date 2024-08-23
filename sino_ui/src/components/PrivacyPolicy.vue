@@ -3,7 +3,7 @@
     <v-container class="px-16 text-theme-primary">
       <h1 class="pa-16 fs-40 font-pt-serif">Privacy Policy</h1>
       <p class="text-h6 font-open-sans">Effective Date: mm/dd/yyyy</p>
-      <p class="fs-18 font-open-sans">
+      <p class="fs-18 font-open-sans lh-36">
         Welcome to
         <a
           class="text-theme-primary"
@@ -26,7 +26,7 @@
       <ol class="fs-18 font-open-sans lh-36 mt-8 privacy">
         <li>
           Information We Collect
-          <p class="ms-n4">
+          <p class="ms-n4 lh-36">
             We collect personal information you provide and information from
             your use of our Site:
           </p>
@@ -62,14 +62,14 @@
         </li>
         <li>
           Information Sharing
-          <p class="ms-n4">
+          <p class="ms-n4 lh-36">
             We do not sell or share your personal information with third parties
             except as necessary to provide our services or as required by law.
           </p>
         </li>
         <li>
           Your Rights and Choices
-          <p class="ms-n4">
+          <p class="ms-n4 lh-36">
             You may request to access, correct, or delete your personal
             information by contacting us at [insert email]. You can opt out of
             our communications by using the unsubscribe link in our emails.
@@ -77,21 +77,21 @@
         </li>
         <li>
           Data Security
-          <p class="ms-n4">
+          <p class="ms-n4 lh-36">
             We implement reasonable security measures to protect your
             information. However, no internet transmission is completely secure.
           </p>
         </li>
         <li>
           International Users
-          <p class="ms-n4">
+          <p class="ms-n4 lh-36">
             Our services are based in the United States. By using our Site, you
             consent to the transfer of your information to the U.S.
           </p>
         </li>
         <li>
           Changes to This Policy
-          <p class="ms-n4">
+          <p class="ms-n4 lh-36">
             We may update this policy periodically. The updated version will be
             indicated by an updated "Effective Date."
           </p>

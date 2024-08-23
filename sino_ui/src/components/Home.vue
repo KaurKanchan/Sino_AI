@@ -233,22 +233,18 @@ export default {
       try {
         const response = await axios.get("http://localhost:5000/blogPosts");
         this.items = response.data;
-        console.log(this.items.results);
         if (this.items.results) {
           this.marketItems = this.items.results
             .filter((item) => item.category === "Market")
             .slice(0, 3);
-          console.log(this.marketItems);
 
           this.govtItems = this.items.results
             .filter((item) => item.category === "Government")
             .slice(0, 3);
-          console.log(this.govtItems);
 
           this.pvtItems = this.items.results
             .filter((item) => item.category === "Private")
             .slice(0, 3);
-          console.log(this.pvtItems);
         } else {
           this.error = "No results found.";
         }

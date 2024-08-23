@@ -14,14 +14,6 @@
         cover
         :src="img"
       ></v-img>
-      <!-- <h4>{{ doc1 }}</h4>
-      <p class="text-truncate">{{ desc1 }}</p>
-      <hr class="my-3" />
-      <h4>{{ doc2 }}</h4>
-      <p class="text-truncate">{{ desc2 }}</p>
-      <hr class="my-3" />
-      <h4>{{ doc3 }}</h4>
-      <p class="text-truncate">{{ desc3 }}</p> -->
     </div>
   </div>
 </template>
@@ -34,30 +26,6 @@ export default {
       required: true,
     },
     img: {
-      type: String,
-      required: true,
-    },
-    doc1: {
-      type: String,
-      required: true,
-    },
-    desc1: {
-      type: String,
-      required: true,
-    },
-    doc2: {
-      type: String,
-      required: true,
-    },
-    desc2: {
-      type: String,
-      required: true,
-    },
-    doc3: {
-      type: String,
-      required: true,
-    },
-    desc3: {
       type: String,
       required: true,
     },
