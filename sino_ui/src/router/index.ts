@@ -14,6 +14,7 @@ import Analysis from "@/components/Analysis.vue";
 import About from "@/components/About.vue";
 import Contact from "@/components/Contact.vue";
 import TermsOfUse from "@/components/TermsOfUse.vue";
+import PrivacyPolicy from "@/components/PrivacyPolicy.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -25,6 +26,7 @@ const router = createRouter({
     { path: "/about", component: About },
     { path: "/contact", component: Contact },
     { path: "/termsofuse", component: TermsOfUse },
+    { path: "/privacypolicy", component: PrivacyPolicy },
   ],
   linkActiveClass: "text-blue",
 });

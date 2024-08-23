@@ -35,6 +35,10 @@ body,
   font-size: 18px !important;
 }
 
+::v-deep .fs-18 {
+  font-size: 18px !important;
+}
+
 .fs-40 {
   font-size: 40px !important;
 }
@@ -46,7 +50,7 @@ body,
   line-height: 36px !important;
 }
 
-ul {
+.subscribe ul {
   list-style-position: inside;
   padding: 0;
   text-align: center;
@@ -54,6 +58,10 @@ ul {
 
 li {
   margin: 0 10px;
+}
+
+.privacy li {
+  margin: 20px;
 }
 
 .input-form .v-field__input {
