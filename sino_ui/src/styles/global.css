@@ -32,7 +32,7 @@ body,
 }
 
 .fs-18 {
-  font-size: 18px;
+  font-size: 18px !important;
 }
 
 .fs-40 {
@@ -40,6 +40,9 @@ body,
 }
 
 .lh-36 {
+  line-height: 36px !important;
+}
+::v-deep .lh-36 {
   line-height: 36px !important;
 }
 
@@ -76,5 +79,5 @@ li {
   color: #213459 !important;
 }
 .px-128 {
-  padding-inline: 128px;
+  padding-inline: 128px !important;
 }

@@ -84,16 +84,21 @@
               ></v-text-field
             ></v-col>
             <v-col md="12" class="text-black">
-              <v-checkbox
-                class="input-form"
-                label="I agree to receive emails from SinoAI Advisory."
-              ></v-checkbox>
+              <v-checkbox class="input-form text-h6"
+                ><template v-slot:label>
+                  <div class="text-h6 font-open-sans ms-3">
+                    I agree to receive emails from SinoAI Advisory.
+                  </div>
+                </template></v-checkbox
+              >
             </v-col>
-            <v-col md="12">
+            <v-col md="12" class="text-center">
               <v-btn
                 rounded="0"
+                color="white"
+                flat
                 size="x-large"
-                class="px-16 bg-light text-black font-pt-serif font-weight-bold text-h6"
+                class="px-16 text-black font-pt-serif font-weight-bold text-h6 about-btn border-t-lg"
               >
                 Subscribe
               </v-btn>

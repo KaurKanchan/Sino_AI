@@ -13,6 +13,7 @@ import Subscribe from "@/components/Subscribe.vue";
 import Analysis from "@/components/Analysis.vue";
 import About from "@/components/About.vue";
 import Contact from "@/components/Contact.vue";
+import TermsOfUse from "@/components/TermsOfUse.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -23,7 +24,9 @@ const router = createRouter({
     { path: "/insights", component: Analysis },
     { path: "/about", component: About },
     { path: "/contact", component: Contact },
+    { path: "/termsofuse", component: TermsOfUse },
   ],
+  linkActiveClass: "text-blue",
 });
 
 // Workaround for https://github.com/vitejs/vite/issues/11804
