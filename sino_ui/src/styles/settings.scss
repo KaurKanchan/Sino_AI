@@ -8,3 +8,99 @@
 // @use 'vuetify/settings' with (
 //   $color-pack: false
 // );
+
+#inspire .v-application__wrap {
+  min-height: auto !important;
+}
+
+body,
+.font-open-sans {
+  font-family: "Open Sans", serif !important;
+}
+
+.font-quicksand {
+  font-family: "Quicksand", sans-serif !important;
+}
+
+.font-pt-serif {
+  font-family: "PT Serif", serif !important;
+}
+
+.bg-theme-primary {
+  background-color: #0a2458 !important;
+}
+
+.bg-theme-primary-light {
+  background-color: #213459;
+}
+
+.text-theme-primary {
+  color: #213459 !important;
+}
+
+.bg-light {
+  background-color: #f5f4ee !important;
+}
+
+.fs-30 {
+  font-size: 30px !important;
+}
+
+.fs-18 {
+  font-size: 18px !important;
+}
+
+::v-deep .fs-18 {
+  font-size: 18px !important;
+}
+
+.fs-40 {
+  font-size: 40px !important;
+}
+
+.lh-36 {
+  line-height: 36px !important;
+}
+::v-deep .lh-36 {
+  line-height: 36px !important;
+}
+
+.subscribe ul {
+  list-style-position: inside;
+  padding: 0;
+  text-align: center;
+}
+
+.subscribe li {
+  margin: 0 10px;
+}
+
+.privacy li {
+  margin: 20px;
+}
+
+.input-form .v-field__input {
+  font-size: 20px !important;
+}
+.input-form .v-label {
+  font-weight: 600;
+  font-size: 20px !important;
+}
+
+.logo-btn:hover > .v-btn__overlay,
+.about-btn > .v-btn__overlay {
+  opacity: 0 !important;
+}
+
+.text-center-webkit {
+  text-align: -webkit-center !important;
+}
+.filter-label .v-label,
+.filter-label .v-field__input,
+.filter-label .v-field__append-inner {
+  font-size: 30px;
+  color: #213459 !important;
+}
+.px-128 {
+  padding-inline: 128px !important;
+}
